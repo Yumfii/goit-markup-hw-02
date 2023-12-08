@@ -95,7 +95,11 @@ h6 {
   background: #4d5ae5;
 }
 
-.hero-button:hover .hero-button:focus{
+.hero-button:hover {
+  background-color: #404BBF;
+}
+
+.hero-button:focus {
   background-color: #404BBF;
 }
 
