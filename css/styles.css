@@ -40,21 +40,25 @@ h6 {
 }
 
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.logo span {
-  color: #4d5ae5;
+.header-logo span {
+  color: #2e2f42;
 }
 
-.header-address-item > a {
+.header-address {
+  font-style: normal;
+}
+
+.header-address-link {
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -63,7 +67,7 @@ h6 {
   letter-spacing: 0.32px;
 }
 
-.header-address-item > a:hover {
+.header-address-link:hover .header-address-link:focus{
   color: #404bbf;
 }
 
@@ -77,12 +81,16 @@ h6 {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
+  
 }
 
 .hero-button {
   color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
   display: inline-flex;
   padding: 16px 32px;
@@ -93,11 +101,15 @@ h6 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.hero-button:hover .hero-button:focus{
+  background-color: #404BBF;
+}
+
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
 
-.footer-logo {
+.footer-logo span{
   color: #f4f4fd;
 }
